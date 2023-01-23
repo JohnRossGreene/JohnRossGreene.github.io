@@ -8,6 +8,7 @@ Atlas 2000 - Web Repository (2023)
 
 # In-Class Assignments
 * ICA1
+https://johnrossgreene.github.io/ica/ICA1.pdf
 * ICA2
 * ICA3
 * ICA4
@@ -24,6 +25,7 @@ Atlas 2000 - Web Repository (2023)
 * ICA15
 # Weekly Assignments
 * WA1
+https://johnrossgreene.github.io/wa/wa1.html
 * WA2
 * WA3
 * WA4
