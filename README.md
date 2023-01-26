@@ -27,6 +27,7 @@ https://johnrossgreene.github.io/ica/ICA1.pdf
 * WA1
 https://johnrossgreene.github.io/wa/wa1.html
 * WA2
+https://johnrossgreene.github.io/wa/wa2.html
 * WA3
 * WA4
 * WA5
