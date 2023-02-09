@@ -1,0 +1,27 @@
+h1{
+    color:hotpink;
+    border-bottom: dashed purple;
+}
+
+h2{
+    font-size: 1.5em;
+    font-style: italic;
+}
+.contact{
+    background-color: #eeeeee;
+    padding: 2em;
+    border: solid purple;
+
+
+}
+.job-title{
+    color: #999999;
+    font-weight: bold;
+}
+a:link,
+a {
+    color:limegreen;
+}
+a.visited {
+    color : #fb6542;
+}
