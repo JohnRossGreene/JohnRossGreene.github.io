@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: relative;
+  bottom: -258mm;
+  right: 20mm;
+}
+
+h1 {
+  position: relative;
+  bottom: 30mm;
+  right: 135mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-image: url("/img/letterhead/logo.png");
+  border-radius: 64px;
+  box-shadow: 3px 3px 3px black;
+
+}
+.topimg {
+    position: relative;
+    width: 210mm;
+    height: 100%;
+    margin: 20px auto;
+    background-image: linear-gradient(
+      rgba(27, 27, 27, 0.281),
+      rgba(255, 255, 255, 0.089));
+    text-align: center;
+    border: solid red;
+    border-width: 1mm 0 0;
+
+}
+.botimg {
+    width: 210mm;
+    height: 100%;
+    margin: 20px auto;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.089),
+      rgba(27, 27, 27, 0.281));
+
+    text-align: center;
+    border: solid red;
+    border-width: 0 0 1mm;
+
+}
+.logocontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    filter: drop-shadow(3px 3px 3px #000000);
+}
+
+.logotext {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+/* Your CSS below here */
