@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#5e3ab2;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("/img/spacebg.jpg");
+    background-repeat: repeat;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:40px;
+    background-color: blueviolet;
+}
+nav a{
+    width:10vw;
+    padding-left: 1em;
+    text-align: center;
+    text-decoration: none;
+    color:lime;
+}
+h1{
+    color:limegreen;
+    font-size: 80px;
+}
+h2{
+    color:magenta;
+}
+h3{
+    text-align: center;
+    color:aqua;
+}
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+
+#red-ball{
+    background-color: purple;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    border-color: lime;
+    position: absolute;
+    left:5vw;
+    top:100px;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#alien-link:hover{
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#alien-link a{
+    color:lime;
+    font-size:30px;
+    
+}
+
+
+
+#alien-link a:hover{
+    color:magenta;
+}
+
+#alienchild
+{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+blink {
+    animation: .5s linear infinite flash;
+}
+  
+  @keyframes flash {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+}
+.flashimg {
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.antialien img{
+    height:50vh;
+    width:50vh;
+}
+

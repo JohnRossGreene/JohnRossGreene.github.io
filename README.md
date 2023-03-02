@@ -18,9 +18,8 @@ https://johnrossgreene.github.io/ica/ica4.html
 * ICA5
 https://johnrossgreene.github.io/ica/ica5.html
 * ICA6
-///
+Not completed due to extreme illness
 * ICA7
-https://johnrossgreene.github.io/ica/ica7.html
 * ICA8
 * ICA9
 * ICA10
@@ -41,7 +40,10 @@ https://johnrossgreene.github.io/wa/wa4.html
 * WA5
 https://johnrossgreene.github.io/wa/wa5.html
 * WA6
+Not completed due to extreme illness
 * WA7
+https://johnrossgreene.github.io/wa/wa7.html
+
 * WA8
 * WA9
 * WA10
