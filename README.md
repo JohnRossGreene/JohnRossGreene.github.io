@@ -43,7 +43,6 @@ https://johnrossgreene.github.io/wa/wa5.html
 Not completed due to extreme illness
 * WA7
 https://johnrossgreene.github.io/wa/wa7.html
-
 * WA8
 * WA9
 * WA10
