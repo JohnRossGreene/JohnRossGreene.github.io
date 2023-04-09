@@ -35,10 +35,9 @@ function getGameInfo(game) {
 function displayGameInfo(gameInfo) {
     //setting HTML from separated elements in JSON
   const gameInfoDiv = document.getElementById('gameInfo');
-    //We puttin that style inline for the image because I don't care about making this look pretty
   gameInfoDiv.innerHTML = `
     <h2>${gameInfo.title}</h2>
-    <img src="${gameInfo.image}" alt="game image" style="width:800px;height:600px";>
+    <img src="${gameInfo.image}" alt="game image";>
     <p>Rating: ${gameInfo.rating}</p>
     <p>Released: ${gameInfo.released}</p>
     <p>Platforms: ${gameInfo.platforms.join(', ')}</p>
