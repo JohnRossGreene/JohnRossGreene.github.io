@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: lightpink;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: cyan;
+  }
+  
+  #errorMessage {
+    color: red;
+    margin-top: 16px;
+  }
+  
+  #gameInfo {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  #gameInfo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+  }
+  
+  #gameInfo p {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+  #gameInfo h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  #username {
+    margin-top: 16px;
+  }
+  
