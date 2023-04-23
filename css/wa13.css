@@ -1,0 +1,100 @@
+body {
+    background-image: url('https://i1.sndcdn.com/artworks-3dJXgPZbnHqvOCzQ-iZq4qg-t500x500.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:400px;
+  }
+h1 {
+    color:greenyellow;
+}
+  #jargon-dropdown {
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #FFD700;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #000;
+  }
+  
+  #jargon-dropdown option:checked {
+    text-shadow: 0 0 5px #FFD700;
+  }
+  
+  #jargon-dropdown {
+    animation: rotate 5s infinite linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .prompt-text {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      font-size: 24px;
+    }
+    50% {
+      font-size: 30px;
+    }
+    100% {
+      font-size: 24px;
+    }
+  }
+  
+  .alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #000;
+    color: #FFD700;
+    font-size: 36px;
+    text-align: center;
+    box-shadow: 0 0 20px #FFD700;
+    border-radius: 10px;
+  }
+  
+  .alert:before,
+  .alert:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    animation: neon 1s ease-out infinite alternate;
+  }
+  
+  .alert:before {
+    z-index: -1;
+    animation-delay: 0s;
+  }
+  
+  .alert:after {
+    z-index: -2;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes neon {
+    0% {
+      opacity: 0;
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+    }
+    100% {
+      opacity: 1;
+      box-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700;
+    }
+  }
+  

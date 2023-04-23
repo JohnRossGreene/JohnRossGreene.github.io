@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/css/wa13.css">
+<head>
+	<title>Super Technical Website</title>
+</head>
+<body>
+    <h1>Figure it out if youre so damn smart</h1>>
+	<select id="jargon-dropdown">
+		<option value="">Blease Pick Your Function...</option>
+		<option value="AI">Artificial Intelligence</option>
+		<option value="API">Application Programming Interface</option>
+		<option value="BIOS">Basic Input/Output System</option>
+		<option value="CPU">Central Processing Unit</option>
+		<option value="DNS">Domain Name System</option>
+		<option value="GPU">Graphics Processing Unit</option>
+		<option value="HTML">Hypertext Markup Language</option>
+		<option value="RAM">Random Access Memory</option>
+		<option value="SSD">Solid State Drive</option>
+		<option value="UI">User Interface</option>
+		<option value="Volume Control">Volume Control</option>
+	</select>
+
+	<script>
+        var ghost = new Audio('ghost.mp3');
+        window.addEventListener('click', () => {
+            ghost.play();
+        });
+		const dropdown = document.getElementById("jargon-dropdown");
+        const fortunes = ["Be on the lookout for coming events; They cast their shadows beforehand.",
+"You are very talented in many ways.",
+"A short stranger will soon enter your life with blessings to share.",
+"Our deeds determine us, as much as we determine our deeds.",
+"If winter comes, can spring be far behind?",
+"Love can last a lifetime, if you want it to.",
+"When fear hurts you, conquer it and defeat it!",
+"The love of your life is stepping into your planet this summer.",
+"A dream you have will come true.",
+"Serious trouble will bypass you.",
+"Don't forget you are always on our minds.",
+"Let the deeds speak.",
+"You will be called in to fulfill a position of high honor and responsibility.",
+"LIFE CONSISTS NOT IN HOLDING GOOD CARDS, BUT IN PLAYING THOSE YOU HOLD WELL.",
+"Land is always on the mind of a flying bird."]
+
+		dropdown.addEventListener("change", function() {
+			const selectedValue = dropdown.value;
+
+			if (selectedValue === "Volume Control") {
+				const randomNum = Math.floor(Math.random() * 6) + 1;
+                const randomFortune = Math.floor(Math.random() * 15);
+
+				let message;
+
+				if (randomNum === 6) {
+					const volumePrompt = prompt("The length of the word will decide the volume.");
+                    ghost.volume = volumePrompt.length / 12;
+					message = "WINNER WINNER: " + randomNum + "\nUser input: " + volumePrompt;
+				} else {
+					message = "Unlucky! Try again. You Rolled: " + randomNum + "\n YOUR FORTUNE: " + fortunes[randomFortune];
+				}
+
+				alert(message);
+			}
+		});
+	</script>
+</body>
+</html>
