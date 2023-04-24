@@ -44,10 +44,16 @@ Not completed due to extreme illness
 * WA7
 https://johnrossgreene.github.io/wa/wa7.html
 * WA8
+https://johnrossgreene.github.io/wa/wa8.html
 * WA9
+https://johnrossgreene.github.io/wa/wa9.html
 * WA10
+https://johnrossgreene.github.io/wa/wa10.html
 * WA11
+https://johnrossgreene.github.io/wa/wa11.html
 * WA12
+https://johnrossgreene.github.io/wa/wa12.html
 * WA13
+https://johnrossgreene.github.io/wa/wa13.html
 * WA14
 * WA15
